@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-Title {
+    font-weight: bold;
+
+}
+
+.readMore {
+    text-transform: capitalize;
+}
+
+i {
+    font-size: 25px;
+}
+
+.header-Paragraph {
+    font-weight: bold;
+}
+
+.field {
+    font-size: 1.1rem;
+}
+
+.fa {
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    i {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    i {
+        font-size: 30px;
+    }
+}

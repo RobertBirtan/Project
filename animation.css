@@ -1,0 +1,34 @@
+.header-introduction {
+    animation: move-object 12s ease-in-out infinite;
+}
+
+@keyframes move-object {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(calc(100vw - 50px));
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    @keyframes move-object {
+        0% {
+            transform: translateX(0);
+        }
+
+        50% {
+            transform: translateX(calc(100vw - 50px));
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
+}
